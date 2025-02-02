@@ -56,7 +56,7 @@ python src/producer/producer.py
 Run the Consumer:
 The consumer listens for messages from Kafka, processes the video statistics, and sends alerts via Telegram if there are any changes. Run the consumer script with:
 python src/consumer/consumer.py
-###6. MongoDB Setup
+### 6. MongoDB Setup
 Ensure MongoDB is set up and accessible by the script. The script will store video statistics in the youtubealert database, specifically in the countdata collection.
 
 ### Contributing
